@@ -43,7 +43,7 @@ var res = window.document.getElementById("resultado")
         if (mL >= 500 && mL <= 750) {
             window.document.getElementById("Copos").src = "./IMG/copo_1de6.png";
         } else {
-            if (mL  > 75 && mL <= 1000) {
+            if (mL  > 750 && mL <= 1000) {
               window.document.getElementById("Copos").src = "./IMG/copo_2de6.png"; 
             } else {
                if (mL > 1000 && mL <= 1500) {
@@ -79,3 +79,4 @@ var res = window.document.getElementById("resultado")
         window.document.getElementById("add").style.display = "none";
 
     }
+
