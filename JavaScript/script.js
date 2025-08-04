@@ -58,7 +58,12 @@ var res = window.document.getElementById("resultado")
                         if (mL > 2000 && mL < 2500) {
                             window.document.getElementById("Copos").src = "./IMG/copo_6de6.png";
                         } else {
-                           window.document.getElementById("Copos").src = "./IMG/copo_cheio.png";
+                            if (mL == 0) {
+                                window.document.getElementById("Copos").src = "./IMG/copo_vazio.png";
+                            } else {
+                                 window.document.getElementById("Copos").src = "./IMG/copo_cheio.png";
+                            }
+                          
                         }
                      }
                   }
