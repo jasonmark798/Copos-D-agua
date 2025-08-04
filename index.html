@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Beba água!</title>
+</head>
+<body>
+    <main>
+        <h1>Copos d'agua!</h1>
+        
+        <div id="Container">
+
+            <input type="number" id="kg" placeholder="Quantos KGs você tem?" max="230">
+            <button onclick="calcular()">Enviar</button>
+           
+
+            <img src="./IMG/copo_vazio.png" id="Copos" alt="copo_vazio">
+             <div id="resultado">Quantos copos?</div>
+            <button onclick="agua()">Adicionar Copo d'agua!</button>
+
+            
+        </div>
+
+        <div id="add">
+            <h2>Quantos copos você bebeu?</h2>
+
+            <input type="number" id="quantidadeC" placeholder="Quantos copos?">
+            <input type="number" id="quantidadeML" placeholder="Quantos mL?">
+
+            <button onclick="adic()">Adicionar!</button>
+            <button onclick="fechar()" id="fechar">Fechar</button>
+
+            
+        </div>
+
+        
+    </main>
+
+    <script src="./JavaScript/script.js"></script>
+</body>
+</html>
